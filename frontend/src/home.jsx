@@ -153,7 +153,7 @@ function Home() {
           </p>
           <div className="qrCode">
             <h4>QR Code for Crop ID: {prevCrop.cropHash}</h4>
-            <QRCodeCanvas value={`https://localhost:5173/crops/${prevCrop.cropHash}`} />
+            <QRCodeCanvas value={`http://shanjiv177.github.io/agriverify/crops/${prevCrop.cropHash}`} />
             <p>Scan the QR code to view certification details.</p>
           </div>
         </div>
